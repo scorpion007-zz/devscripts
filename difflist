@@ -6,5 +6,5 @@ mkdir $DIFFTMP
 
 git difftool --no-prompt -x difflist_helper.sh $*
 
-cat $DIFFTMP/filelist.txt
-"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\x64\WinDiff.Exe" -I $DIFFTMP/filelist.txt
+#cat $DIFFTMP/filelist.txt
+"$PROGRAMFILES\Microsoft SDKs\Windows\v7.0A\Bin\x64\WinDiff.Exe" -I $DIFFTMP/filelist.txt
